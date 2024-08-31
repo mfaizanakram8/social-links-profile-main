@@ -71,7 +71,7 @@ a{
 }
 
 /* Responsive styles */
-@media (max-width: 375px) {
+@media (max-width: 767px) {
     body {
         background-color: rgb(255, 253, 208);
         background-repeat: no-repeat;
@@ -97,10 +97,12 @@ a{
         font-size: 18px;
         color: black;
     }
-    .button{
+    
+    .button {
         background-color: rgba(230, 69, 96, 0.358);
     }
-    .button:hover{
+    
+    .button:hover {
         background-color: rgba(230, 69, 96, 0.463);
     }
 }
