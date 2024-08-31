@@ -11,7 +11,7 @@ body {
     justify-content: center; 
     align-items: center; 
     margin: 0;
-    background-image: url(bg3.png);
+    background-image: url(bg5.png);
     background-size: cover;
 }
 
@@ -75,6 +75,7 @@ a{
     body {
         background-color: rgb(255, 253, 208);
         background-repeat: no-repeat;
+        background-image: url(bg3.png);
     }
 
     .main {
