@@ -71,7 +71,7 @@ a{
 }
 
 /* Responsive styles */
-@media (max-width: 375px) {
+@media (max-width: 767px) {
     body {
         background-color: rgb(255, 253, 208);
         background-repeat: no-repeat;
@@ -104,38 +104,5 @@ a{
     
     .button:hover {
         background-color: rgba(230, 69, 96, 0.463);
-    }
-}
-@media (min-width: 500px) {
-    body {
-        background-color: rgb(255, 253, 208);
-        background-repeat: no-repeat;
-        background-image: url(bg9.png);
-    }
-
-    .main {
-        width: 200px;
-        height: 400px;
-        background-color: #228c22bd;
-        border-radius: 10px;
-    }
-
-    .profile-img {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        margin-top: 15px;
-    }
-
-    .username {
-        margin-top: 10px;
-        font-size: 18px;
-        color: black;
-    }
-    .button {
-                background-color: #228c2290;
-            }
-    .button:hover {
-        background-color: #196c19eb;
     }
 }
